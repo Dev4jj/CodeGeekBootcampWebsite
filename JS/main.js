@@ -24,7 +24,7 @@ function applyMsg() {
 
         //The code below selects the <select> html with the #bootcamp id 
         //selects the index of the chosen option through [document.querySelector("#bootcamp").selectedIndex]
-        //then prints the tex through .text
+        //then prints the text through .text
         var course = document.querySelector("#bootcamp").options[document.querySelector("#bootcamp").selectedIndex].text
 
         alert(" Thank you, " + name.value + " for choosing to learn how to code with CodeGeek" + " and for signing up for our " + course + " bootcamp.")
